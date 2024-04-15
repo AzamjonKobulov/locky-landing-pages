@@ -1913,6 +1913,10 @@ input::placeholder{
     width: 7.75rem;
   }
 
+  .lg\:w-1\/2{
+    width: 50%;
+  }
+
   .lg\:flex-1{
     flex: 1 1 0%;
   }
