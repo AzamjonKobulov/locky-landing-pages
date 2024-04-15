@@ -754,6 +754,9 @@ input::placeholder{
 .h-8{
   height: 2rem;
 }
+.h-96{
+  height: 24rem;
+}
 .h-\[1\.375rem\]{
   height: 1.375rem;
 }
@@ -768,15 +771,6 @@ input::placeholder{
 }
 .h-full{
   height: 100%;
-}
-.h-72{
-  height: 18rem;
-}
-.h-\[35\.3125rem\]{
-  height: 35.3125rem;
-}
-.h-96{
-  height: 24rem;
 }
 .w-1\/2{
   width: 50%;
@@ -795,6 +789,9 @@ input::placeholder{
 }
 .w-4{
   width: 1rem;
+}
+.w-48{
+  width: 12rem;
 }
 .w-6{
   width: 1.5rem;
@@ -819,15 +816,6 @@ input::placeholder{
 }
 .w-full{
   width: 100%;
-}
-.w-72{
-  width: 18rem;
-}
-.w-56{
-  width: 14rem;
-}
-.w-48{
-  width: 12rem;
 }
 .max-w-2xl{
   max-width: 42rem;
@@ -1869,12 +1857,12 @@ input::placeholder{
     height: 3.25rem;
   }
 
-  .lg\:h-\[46\.875rem\]{
-    height: 46.875rem;
-  }
-
   .lg\:h-\[35\.3125rem\]{
     height: 35.3125rem;
+  }
+
+  .lg\:h-\[46\.875rem\]{
+    height: 46.875rem;
   }
 
   .lg\:w-12{
@@ -1905,6 +1893,10 @@ input::placeholder{
     width: 1.5rem;
   }
 
+  .lg\:w-72{
+    width: 18rem;
+  }
+
   .lg\:w-\[13\.375rem\]{
     width: 13.375rem;
   }
@@ -1919,10 +1911,6 @@ input::placeholder{
 
   .lg\:w-\[7\.75rem\]{
     width: 7.75rem;
-  }
-
-  .lg\:w-72{
-    width: 18rem;
   }
 
   .lg\:flex-1{
@@ -1957,12 +1945,12 @@ input::placeholder{
     gap: 0.875rem;
   }
 
-  .lg\:gap-7{
-    gap: 1.75rem;
-  }
-
   .lg\:gap-48{
     gap: 12rem;
+  }
+
+  .lg\:gap-7{
+    gap: 1.75rem;
   }
 
   .lg\:space-y-16 > :not([hidden]) ~ :not([hidden]){
